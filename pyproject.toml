@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml to production"
+version = "0.1.0"
+description = ""
+authors = ["lcombita09 <combita09@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.0"
+pydantic-settings = "^2.7.0"
+loguru = "^0.7.3"
+sqlalchemy = "^2.0.36"
+wemake-python-styleguide = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
