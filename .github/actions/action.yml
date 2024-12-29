@@ -1,4 +1,5 @@
 name: Build Application
+description: 'Sets up Python environment with Poetry'
   
 runs:
   using: composite  
