@@ -15,10 +15,7 @@ jobs:
 
     steps:
     - name: Checkout repository      
-      uses: actions/checkout@v4
-    
-    - name: Debug directory structure
-      run: ls -R .github/actions
+      uses: actions/checkout@v4    
 
     - name: Build Application
       uses: ./.github/actions/build-application
